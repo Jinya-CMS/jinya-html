@@ -1,0 +1,14 @@
+{
+  "name": "jinya-html",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "lodash.isfunction": "3.0.9"
+  },
+  "devDependencies": {
+    "jasmine": "4.2.1"
+  }
+}
