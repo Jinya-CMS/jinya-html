@@ -9,7 +9,7 @@
   "devDependencies": {
     "eslint": "8.20.0",
     "eslint-plugin-import": "2.26.0",
-    "jasmine": "4.2.1",
-    "jasmine-core": "4.2.0"
+    "jasmine": "4.3.0",
+    "jasmine-core": "4.3.0"
   }
 }
