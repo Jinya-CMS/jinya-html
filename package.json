@@ -7,7 +7,7 @@
     "test": "jasmine"
   },
   "devDependencies": {
-    "eslint": "8.33.0",
+    "eslint": "8.34.0",
     "eslint-plugin-import": "2.27.5",
     "jasmine": "4.5.0",
     "jasmine-core": "4.5.0"
