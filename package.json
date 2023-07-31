@@ -1,15 +1,35 @@
 {
-  "name": "@jinyacms/jinya-html",
-  "version": "1.0.0",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "test": "jasmine"
-  },
-  "devDependencies": {
-    "eslint": "8.43.0",
-    "eslint-plugin-import": "2.27.5",
-    "jasmine": "5.0.2",
-    "jasmine-core": "5.0.1"
-  }
+	"name": "@jinyacms/jinya-html",
+	"version": "1.0.1",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"test": "jasmine",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"homepage": "https://html.jinya.dev",
+	"repository": {
+		"url": "https://github.com/Jinya-CMS/jinya-html/",
+		"type": "git"
+	},
+	"author": {
+		"url": "https://jinya.de",
+		"email": "developers@jinya.de",
+		"name": "Jinya Developers"
+	},
+	"contributors": [
+		{
+			"name": "Imanuel Ulbricht",
+			"email": "imanuel.ulbricht@jinya.de",
+			"url": "https://imanuel.dev"
+		}
+	],
+	"devDependencies": {
+		"prettier": "3.0.0",
+		"eslint": "8.46.0",
+		"eslint-plugin-import": "2.28.0",
+		"jasmine": "5.1.0",
+		"jasmine-core": "5.1.0"
+	}
 }

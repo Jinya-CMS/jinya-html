@@ -1,0 +1,10 @@
+docs
+.gitlab
+.gitignore
+_config.yml
+favicon.ico
+Gemfile
+Gemfile.lock
+.prettierrc
+.prettierignore
+_site
