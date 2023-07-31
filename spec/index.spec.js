@@ -18,22 +18,14 @@ describe('Jinya HTML test suite', function () {
 		expect(result).toBe('<div>Test</div>');
 	});
 	it('Template with array placeholder', function () {
-		const result = html` <ul>
-			${['one', 'two', 'three'].map((item) => `<li>${item}</li>`)}
-		</ul>`;
+		const result = html`<ul>${['one', 'two', 'three'].map((item) => `<li>${item}</li>`)}</ul>`;
 
 		expect(result).toBe('<ul><li>one</li><li>two</li><li>three</li></ul>');
 	});
 	it('Template with mixed placeholders', function () {
 		const username = 'Test';
-		const result = html` <h1>${username}</h1>
-			<ul>
-				${['one', 'two', 'three'].map((item) => `<li>${item}</li>`)}
-			</ul>
-			<div>${() => 'Test'}</div>`;
+		const result = html`<h1>${username}</h1><ul>${['one', 'two', 'three'].map((item) => `<li>${item}</li>`)}</ul><div>${() => 'Test'}</div>`;
 
-		expect(result).toBe(`<h1>Test</h1>
-            <ul><li>one</li><li>two</li><li>three</li></ul>
-            <div>Test</div>`);
+		expect(result).toBe(`<h1>Test</h1><ul><li>one</li><li>two</li><li>three</li></ul><div>Test</div>`);
 	});
 });
